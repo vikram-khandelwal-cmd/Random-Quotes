@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Roboto+Mono:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    display: block;
+    margin: auto;
+    display: flex;
+    height: 186px;
+    width: 552px;
+    margin: auto;
+    margin-top: 61px;
+}
+
+
+
+h1 {
+    margin-top: 33px;
+   
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    width: 550px;
+    text-shadow: -1px 2px;
+    font-size: 55px;
+      color: #157491;
+    text-shadow: 6px 2px #000000;
+}
+
+
+
+hr {
+
+    border-style: none;
+    border-width: 20%;
+    border-color: rgb(69 149 149);
+    border-width: 10px;
+    border-top-style: line;
+    width: 20%;
+    margin: auto;
+    width: 40%;
+    margin-top: 10px;
+}
+
+
+
+.container {
+    height: 900px;
+     margin-top: 40px;
+}
+
+.container p {
+background-color: rgb(255, 255, 255);
+    height: 282px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    width: 62%;
+    border-radius: 22px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+button {
+
+    border-style: 1px solid;
+    border-radius: 1px solid black;
+    border-radius: 7px;
+    display: inherit;
+    margin: auto;
+    /* background-color: #209f59;   */
+    width: 112px;
+    height: 57px;
+    margin-top: 17px;
+    font-size: 21px;
+    color: #000000;
+}
+
+button:hover {
+   cursor: pointer;
+   /* background-color: rgb(75, 212, 132); */
+}
